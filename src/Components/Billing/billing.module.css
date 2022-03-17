@@ -1,0 +1,308 @@
+.home {
+    margin: 2rem 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100% !important;
+}
+
+.divOne {
+    width: 90%;
+    padding: 1rem 0;
+}
+
+.divTwo {
+    width: 100%;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 8.8%;
+}
+
+.home span {
+    font-size: 18px;
+}
+
+.nameInp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.nameInp div h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #686868;
+}
+
+.nameInp div input {
+    padding: 10px 80px 10px 5px;
+    background: #FFFFFF;
+    border: 1px solid #A09898;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-indent: 10px;
+}
+
+.mainInp {
+    width: 100% !important;
+}
+
+.mainInp div {
+    width: 100% !important;
+}
+
+.mainInp div input {
+    width: 100% !important;
+    padding: 12px 0;
+    background: #FFFFFF;
+    border: 1px solid #A09898;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-indent: 10px;
+}
+
+.mainInp div h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #686868;
+    margin: 0.5rem 0;
+}
+
+.mainInp div select {
+    width: 100% !important;
+    padding: 12px 0;
+    background: #FFFFFF;
+    border: 1px solid #A09898;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #686868;
+    text-indent: 10px;
+    cursor: pointer;
+}
+
+.paymentMain {
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 35px 25px;
+}
+
+.paymentProduct {
+    width: 100%;
+}
+
+.paymentProduct h5  {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #686868;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.paymentProduct div {
+    border: 1px solid #C4C4C4;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+.prodName p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #686868;
+    padding: 0 !important;
+}
+
+.carts p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #686868;
+}
+
+.prodName {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    font-style: normal;
+    line-height: 24px;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.border {
+    border: 1px solid #C4C4C4;
+    width: 100% !important;
+    margin: 0 auto;
+    display: block !important;
+}
+
+.imagesCart {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.imagesCart span {
+    margin: 0 10px !important;
+    cursor: pointer;
+    padding: 0 !important;
+    border: 1px solid #C4C4C4 !important;
+    margin-top: 20px !important;
+    height: 3.5rem !important;
+    display: flex !important;
+}
+
+.imagesCart span image {
+    height: 1rem !important;
+    border: none !important;
+}
+
+.carts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prodTotal {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #ec6161;
+}
+
+.btn {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin: 0 0;
+}
+
+.btn button {
+    background: #DCB0A5;
+    border: 2px solid #DCB0A5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 5px 20px;
+}
+
+.prodTotal p {
+    margin: 0;
+}
+
+.btnAdd {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin: 2rem 0;
+}
+
+.btnAdd button {
+    background: #DCB0A5;
+    border: 2px solid #DCB0A5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 5px 20px;
+}
+
+.errorEmail {
+    color: red !important;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .divOne {
+        width: 100% !important;
+        margin: 1rem 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nameInp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .nameInp div input {
+        padding: 10px 180px 10px 5px;
+        background: #FFFFFF;
+        border: 1px solid #A09898;
+        box-sizing: border-box;
+        border-radius: 4px;
+        text-indent: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .nameInp div input {
+        padding: 10px 150px 10px 5px;
+        background: #FFFFFF;
+        border: 1px solid #A09898;
+        box-sizing: border-box;
+        border-radius: 4px;
+        text-indent: 10px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .nameInp div input {
+        padding: 10px 60px 10px 5px;
+        background: #FFFFFF;
+        border: 1px solid #A09898;
+        box-sizing: border-box;
+        border-radius: 4px;
+        text-indent: 10px;
+    }
+}

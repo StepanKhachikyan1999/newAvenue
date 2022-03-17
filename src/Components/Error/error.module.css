@@ -1,0 +1,61 @@
+.aboutHome {
+    display: flex;
+    align-items: center;
+    width: 7rem;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.aboutHome a {
+    text-decoration: none;
+    margin-bottom: 0 !important;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.oops {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.oops h1 {
+    font-family: Bhavuka;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 126px;
+    color: #000000;
+}
+
+.caxik {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.caxik span {
+    font-family: Bhavuka;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 300px;
+    line-height: 378px;
+    color: #32424A;
+}
+
+.errBg {
+    background-image: url("../../../public/bgFooter.png"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 400px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}

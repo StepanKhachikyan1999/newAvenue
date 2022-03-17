@@ -1,0 +1,215 @@
+.wishHome {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0.8rem 0;
+}
+
+.wishHome p {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.wishHome span {
+    padding: 0 0.5rem;
+    font-size: 18px;
+}
+
+.wishHome svg {
+    font-size: 18px;
+}
+
+.wishMyList {
+    margin: 2rem 0;
+}
+
+.wishMyList h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 57px;
+    color: #000000;
+}
+
+.wishMyList h2 {
+    font-style: normal;
+    font-weight: 350;
+    font-size: 25px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.table {
+    width: 100% !important;
+    margin: 2rem 0;
+}
+
+.table table {
+    border-collapse: collapse;
+    width: 100% !important;
+}
+
+.tr {
+    border-bottom: 1px solid #C4C4C4;
+    text-align: center !important;
+}
+
+.tr th {
+    padding: 0.8rem 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.tdR {
+    border-right: 1px solid #C4C4C4;
+}
+
+.thImg {
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.PlusMinus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spanClick {
+    background: #FFFFFF;
+    border: 1px solid #A09898;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 33px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count {
+    margin: 0 0.8rem;
+    padding: 3.5px 55px;
+    background: #FFFFFF;
+    border: 1px solid #A09898;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    text-align: center;
+    color: #000000;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconsFlex {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tr td {
+    padding: 1rem 0;
+}
+
+.tdR h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.tdR h6 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.iconsFlexImg {
+    cursor: pointer !important;
+}
+
+.wishBg {
+    background-image: url("../../../public/bgFooter.png");
+    background-color: #cccccc;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10rem 0;
+}
+
+.btnAdd {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.btnAdd div {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.btnAdd div button {
+    padding: 8px 50px;
+    background: #DCB0A5;
+    border: 2px solid #DCB0A5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .table {
+        border-collapse: collapse !important;
+        width: 100% !important;
+        overflow-x: auto !important;
+    }
+
+    .tr th {
+        padding: 0.8rem 0;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: #000000;
+        padding: 0 20px;
+    }
+}

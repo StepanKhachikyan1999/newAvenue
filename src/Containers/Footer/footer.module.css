@@ -1,0 +1,97 @@
+.footherBorder {
+    width: 90%;
+    margin: 3rem auto;
+    border: 1px solid #C4C4C4;
+    border-radius: 50px;
+}
+
+.cardImages {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardImages span {
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.footText h3 {
+    font-family: Alef;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.footLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.footLink h3 {
+    font-family: Alef;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.footLink a {
+    font-family: Alef;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footText p {
+    font-family: Alef;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin: 15px 0;
+}
+
+.footDownText {
+    text-align: center;
+    margin-top: 8rem;
+}
+
+@media screen and (max-width: 912px) {
+    .footLink {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cardImages {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

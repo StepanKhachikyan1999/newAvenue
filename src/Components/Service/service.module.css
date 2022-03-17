@@ -1,0 +1,26 @@
+.mainOne {
+    width: 80%;
+    border: 20px solid #B6BB9B;
+    box-sizing: border-box;
+    border-radius: 35px;
+    margin-right: 0;
+    margin: 2rem 1.5rem;
+}
+
+.mainTwo img {
+    width: 100%;
+    border-radius: 15px;
+    height: 20rem;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 900px) {
+    .mainOne {
+        width: 80%;
+        border: 20px solid #B6BB9B;
+        box-sizing: border-box;
+        border-radius: 35px;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+}

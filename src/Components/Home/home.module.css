@@ -1,0 +1,263 @@
+.homeBg {
+    width: 100% !important;
+    background-image: url("../../../public/homebg.png") !important; /* The image used */
+    height: 550px !important; /* You must set a specified height */
+    background-position: center !important; /* Center the image */
+    background-repeat: no-repeat !important; /* Do not repeat the image */
+    background-size: cover !important;
+}
+
+.homeBgText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.homeTextTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    background: #C4C4C4;
+    width: 100%;
+    background: radial-gradient(152.32% 152.32% at 47.13% -4.64%, rgba(89, 90, 69, 0.5) 0%, rgba(89, 90, 69, 0.437087) 23.31%, rgba(89, 90, 69, 0.39) 76.41%);
+    height: 350px;
+}
+
+.homeTextTwo h1 {
+    font-family: Bhavuka;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 160px;
+    line-height: 202px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #EEB960;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.homeTextTwo h3 {
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 51px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.homeSlider1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5rem 0 3rem 0 ;
+}
+
+.homeSliderTExt1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.homeSliderTExt1 span {
+    width: 200px;
+    height: 80px;
+}
+
+.homeSliderTExt1 h3 {
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 38px;
+    color: #2F3640;
+    transform: matrix(0.98, 0, -0.18, 1, 0, 0);
+}
+
+.homeSlider1Flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeSlider1Direction {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 20px;
+}
+
+.homeSliderDiv2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between !important;
+}
+
+.homeSliderDiv2Text {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.homeSliderText2Direction {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.homeSliderText2Direction h3 {
+    font-family: Besley;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 45px;
+    color: #313131;
+    transform: matrix(0.98, 0, -0.18, 1, 0, 0);
+}
+
+.homeAbout {
+    width: 70%;
+    margin: 1.5rem auto;
+    text-align: center;
+    position: relative;
+}
+
+.homeAbout h1 {
+    font-family: Bhavuka;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 63px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #46362B;
+    border-bottom: 2px solid #EEB960;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.homeAbout p {
+    font-family: Alef;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #46362B;
+}
+
+.homeAbout a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    color: #FF621F;
+    z-index: 1000000000000000 !important;
+}
+
+.homeAboutImg {
+    position: absolute;
+    top: -300px;
+    right: -150px;
+    z-index: -10000000000;
+}
+
+.homeAboutImg span img {
+    width: 500px;
+    height: 700px !important;
+}
+
+.homeTouch {
+    background: #343626;
+}
+
+.homeMap {
+    width: 100%;
+    margin: 3rem 0;
+}
+
+@media only screen and (max-width: 900px) {
+    .homeTextTwo h1 {
+        font-family: Bhavuka;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 120px;
+        line-height: 202px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #EEB960;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    }
+    .homeSliderDiv2 {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .homeAboutImg {
+        display: none;
+    }
+
+    .homeSliderTExt1 {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .homeTextTwo h1 {
+        font-family: Bhavuka;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 110px;
+        line-height: 202px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #EEB960;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .homeSliderTExt1 {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .homeSliderDiv2 {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .homeAboutImg {
+        display: none;
+    }
+
+    .homeSliderDiv2Text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homeSliderText2Direction {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 2rem;
+    }
+}

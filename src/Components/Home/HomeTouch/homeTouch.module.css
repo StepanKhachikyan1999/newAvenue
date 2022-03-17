@@ -1,0 +1,151 @@
+.mainTouch {
+    margin: 3rem 0;
+}
+
+.mainTouch h1 {
+    font-family: Bhavuka;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 63px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.2em;
+
+    color: #FFFFFF;
+
+    border-bottom: 1px solid #EEB960;
+}
+
+.inpName {
+    background: #B6BB9B !important;
+    border-radius: 10px !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 10px 0;
+    text-indent: 20px;
+}
+
+.inpName:focus {
+    background: #B6BB9B !important;
+    border-radius: 10px !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 10px 0;
+    text-indent: 20px;
+}
+
+.inpName::placeholder {
+    font-family: Alef;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    color: rgba(51, 43, 37, 0.5);
+}
+
+.inpTxterea {
+    background: #B6BB9B !important;
+    border-radius: 10px !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 10px 0 110px 0;
+    text-indent: 20px;
+}
+
+.inpTxterea::placeholder {
+    font-family: Alef;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    color: rgba(51, 43, 37, 0.5);
+}
+
+.btnSend {
+    background: #B6BB9B;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    font-family: Alef;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: #343626;
+}
+
+.btnSend:focus {
+    background: #B6BB9B;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    font-family: Alef;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: #343626;
+}
+
+.btnSend:hover {
+    background: #B6BB9B;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    font-family: Alef;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: #343626;
+}
+
+.icons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.icons h3 {
+    font-family: Alef;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    border-bottom: 1px solid #EEB960;
+    margin-right: 20px;
+}
+
+.iconFb {
+    color: black;
+    font-size: 30px;
+    margin-right: 1rem;
+    background: #EEB960;
+    padding-left: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.iconInsta {
+    color: #EEB960;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.touchImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: 2rem;
+}

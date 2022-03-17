@@ -1,0 +1,189 @@
+.loginMain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgba(252, 248, 248, 0.87);
+    height: 100vh;
+}
+
+.loginOne {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end !important;
+    align-items: center !important;
+}
+
+.loginTwo {
+    width: 50%;
+    height: 100%;
+}
+
+.loginBg {
+    background-image: url("../../../public/loginBg.png");
+    height: 100%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    width: 100%;
+    object-fit: cover;
+}
+
+.login1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.logintext h1 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.34px;
+    color: #000000;
+}
+
+.logintext {
+    width: 70%;
+}
+
+.logintext h3 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: -0.64px;
+    color: #343626;
+}
+
+.logintext span {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: -0.64px;
+    color: #EEB960;
+}
+
+.loginInp {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.loginInp input {
+    margin: 0.8rem 0;
+    border: 1px solid #343626;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #fff !important;
+    padding: 15px 0;
+    text-indent: 10px;
+}
+
+.rememberMe {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rememberMe div {
+    display: flex;
+    align-items: center;
+}
+
+.rememberMe div input {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.rememberMe div p {
+    margin: 0 10px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: -0.33px;
+    color: #032D23;
+}
+
+.rememberMe div a {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: -0.33px;
+    color: #032D23;
+    text-decoration: none;
+}
+
+.login1 button {
+    background: #343626;
+    border-radius: 6px;
+    width: 70%;
+    border: none;
+    padding: 12px 0;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin: 0.5rem 0;
+}
+
+.loginSpan {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 70%;
+}
+
+.loginSpan p {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: -0.33px;
+    color: #343626;
+    margin: 0;
+}
+
+.loginSpan a {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: -0.33px;
+    color: #343626;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.inpIcon {
+    position: relative;
+    width: 100% !important;
+}
+
+.inpIcon input {
+    width: 100%;
+}
+
+.inpIcon span {
+    position: absolute;
+    right: 20px;
+    top: 22px;
+    font-size: 21px;
+    cursor: pointer;
+}

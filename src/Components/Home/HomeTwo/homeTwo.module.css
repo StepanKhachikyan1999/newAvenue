@@ -1,0 +1,36 @@
+.bgHomeTwo {
+    background: #343626;
+}
+
+.colOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 3.5rem 0;
+}
+
+.colOne h2 {
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 1rem 0;
+}
+
+.colOne p {
+    font-family: Alef;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF
+}
